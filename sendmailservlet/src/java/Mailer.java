@@ -4,8 +4,8 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 public class Mailer {
 public static void send(String to,String subject,String msg){
-final String user="suyashsrivastava08@gmail.com";
-final String pass="xxxxxxxxx";	
+final String user="suyash@mymail.com";//your email id
+final String pass="xxxxxxxxx";//your password
 Properties props = new Properties();
 props.put("mail.smtp.host", "smtp.gmail.com");
 props.put("mail.smtp.auth", "true");
